@@ -118,7 +118,8 @@ ul li::marker {
 }
 
 .ingredients h2,
-.steps h2 {
+.steps h2,
+.nutrients h2 {
   font-size: 26px;
   color: var(--clr-brown-800);
   padding-bottom: 25px;
@@ -136,4 +137,27 @@ ol {
 ol li::marker {
   color: var(--clr-brown-800);
   font-weight: bold;
+}
+
+.nutrients {
+  padding-block-start: 32px;
+  padding-block-end: 10px;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  /* border: 1px solid; */
+}
+
+th {
+  padding-left: 28px;
+  width: 50%;
+  font-weight: 400;
+  /* border: 1px solid; */
+}
+
+td {
+  color: var(--clr-brown-800);
+  /* border: 1px solid; */
 }
