@@ -46,6 +46,10 @@ html {
   color: var(--clr-stone-600);
 }
 
+body {
+  width: 100vw;
+}
+
 main {
   line-height: 1.5;
 }
