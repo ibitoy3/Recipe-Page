@@ -9,6 +9,7 @@
   --clr-brown-800: hsl(14, 45%, 36%);
 
   --clr-rose-50: hsl(330, 100%, 98%);
+  --clr-rose-400: hsl(330, 100%, 96%);
   --clr-rose-800: hsl(332, 51%, 32%);
 }
 
@@ -33,14 +34,25 @@ html {
 
 body {
   width: 100vw;
+  background-color: var(--clr-rose-400);
+  padding-block: 124px;
 }
 
 main {
   line-height: 1.5;
+  max-width: 738px;
+  padding-top: 32px;
+  border-radius: 20px;
+  background-color: var(--clr-white);
+  justify-self: center;
 }
 
 img {
+  display: block;
   width: 100vw;
+  max-width: 674px;
+  margin-inline: auto;
+  border-radius: 10px;
 }
 
 .wrapper {
