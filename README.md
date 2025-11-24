@@ -15,38 +15,40 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
+
+My attempt at solving the Recipe Page Challenge
 
 ### Screenshot
 
-![Solution Preview](./screenshot.jpg)
+![Solution Preview](./screenshot.png)
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://github.com/ibitoy3/Recipe-Page)
 - [Live Site URL](https://ibitoy3.github.io/Recipe-Page/)
 
 ## My process
+
+I Approached the design using a mobile-first workflow method, the HTML file was made to e as symantic as possible before any styling was done.
+
+The styling of the page was done from the top down with keen attention on making the rendered webpage look as similar as possible to the given design.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
+- Tables
+- BEM
 - Mobile-first workflow
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinf
+I gained a more indept knowledge on semantic coding
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I will endeavor to learn more about the uncommon (at least to me) element styling methods, for markers, tables and the likes
 
 ## Author
 
@@ -55,4 +57,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+All the Glory belongs to Almighty God
