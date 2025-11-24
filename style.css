@@ -90,17 +90,33 @@ p {
 }
 
 ul {
-  padding-left: 15px;
+  padding-left: 20px;
   list-style-type: disc;
   list-style-position: outside;
 }
 
 ul li {
   padding-bottom: 20px;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 ul li::marker {
   font-size: 0.75em;
   color: var(--clr-rose-800);
+}
+
+.ingredients {
+  padding-block-start: 32px;
+  padding-block-end: 10px;
+  border-bottom: 1px solid var(--clr-stone-100);
+}
+
+.ingredients h2 {
+  font-size: 26px;
+  color: var(--clr-brown-800);
+  padding-bottom: 25px;
+}
+
+.ingredients ul > li::marker {
+  color: var(--clr-brown-800);
 }
