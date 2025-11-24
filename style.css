@@ -74,3 +74,33 @@ p {
   padding-block-end: 32px;
   color: var(--clr-stone-600);
 }
+
+.preptime {
+  background-color: var(--clr-rose-50);
+  padding: 25px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+.preptime h2 {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--clr-rose-800);
+  padding-block-end: 20px;
+}
+
+ul {
+  padding-left: 15px;
+  list-style-type: disc;
+  list-style-position: outside;
+}
+
+ul li {
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+ul li::marker {
+  font-size: 0.75em;
+  color: var(--clr-rose-800);
+}
