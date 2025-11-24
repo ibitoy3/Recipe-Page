@@ -101,9 +101,7 @@ ul li::marker {
   border-bottom: 1px solid var(--clr-stone-100);
 }
 
-.ingredients h2,
-.steps h2,
-.nutrients h2 {
+.title {
   font-size: 26px;
   color: var(--clr-brown-800);
   padding-bottom: 25px;
@@ -150,4 +148,8 @@ th,
 td {
   border-bottom: 1px solid var(--clr-stone-100);
   padding-block: 10px;
+}
+
+.no-border {
+  border-bottom: 0;
 }
