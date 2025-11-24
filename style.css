@@ -99,7 +99,8 @@ ul {
   list-style-position: outside;
 }
 
-ul li {
+ul li,
+ol li {
   padding-bottom: 20px;
   padding-left: 20px;
 }
@@ -109,13 +110,15 @@ ul li::marker {
   color: var(--clr-rose-800);
 }
 
-.ingredients {
+.ingredients,
+.steps {
   padding-block-start: 32px;
   padding-block-end: 10px;
   border-bottom: 1px solid var(--clr-stone-100);
 }
 
-.ingredients h2 {
+.ingredients h2,
+.steps h2 {
   font-size: 26px;
   color: var(--clr-brown-800);
   padding-bottom: 25px;
@@ -123,4 +126,14 @@ ul li::marker {
 
 .ingredients ul > li::marker {
   color: var(--clr-brown-800);
+}
+
+ol {
+  padding-left: 20px;
+  list-style-position: outside;
+}
+
+ol li::marker {
+  color: var(--clr-brown-800);
+  font-weight: bold;
 }
