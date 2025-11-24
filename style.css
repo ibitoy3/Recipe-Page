@@ -147,17 +147,14 @@ ol li::marker {
 table {
   width: 100%;
   text-align: left;
-  /* border: 1px solid; */
 }
 
 th {
   padding-left: 28px;
   width: 50%;
   font-weight: 400;
-  /* border: 1px solid; */
 }
 
 td {
   color: var(--clr-brown-800);
-  /* border: 1px solid; */
 }
